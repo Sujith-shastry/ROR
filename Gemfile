@@ -56,3 +56,12 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'	
 
 gem 'bcrypt', '~> 3.1.7'
+
+group :production do
+gem 'mysql2', '~> 0.4.0'
+end
+
+gem 'capistrano-rails', group: :development
+gem 'capistrano-rvm', group: :development
+gem 'capistrano-bundler', group: :development
+gem 'capistrano-passenger', group: :development

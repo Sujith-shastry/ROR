@@ -1,8 +1,2 @@
 es:
- layouts: 
-  application: 
-   title: "The Pradasdasdgmatic Bookshelf"
-   home: "Homesdasd"
-   questions: "Quesdasstions"
-   news: "Nesadasws"
-   contact: "Cosdasdntact"
+  thanks: "Thank you for your order"	
